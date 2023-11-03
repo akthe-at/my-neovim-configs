@@ -2,7 +2,7 @@
 local M = {}
 
 M.ui = {
-  theme = 'nightowl',
+  theme = 'kanagawa',
     -- hl_override = {
     --     CmpItemAbbrMatch = { fg = "#569CD6", bg = "NONE"},
     --     CmpItemKindFunction = { fg = "#C586C0", bg = "NONE"},
@@ -18,11 +18,14 @@ M.ui = {
     transparency = true,
     cmp = {
         style = "flat_dark",
-    },
+        },
     nvdash = {
         load_on_startup = true,
+
     }
 }
 M.mappings = require "custom.mappings"
 M.plugins = "custom.plugins"
+M.settings = "custom.extras"
+
 return M

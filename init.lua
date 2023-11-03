@@ -1,6 +1,4 @@
-
-vim.api.nvim_set_hl(0, "Normal", { bg = "none"})
-vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none"})
+require "custom.extras"
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
@@ -17,7 +15,7 @@ vim.opt.wrap = false
 
 vim.opt.swapfile = false
 vim.opt.backup = false
---vim.opt.undodir = os.getenv("HOME") .. "./nvim-data/undo"
+vim.opt.undodir = os.getenv("USERPROFILE") .. "/nvim-data/undo"
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
@@ -60,4 +58,3 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 --undo tree
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
-
