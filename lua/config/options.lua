@@ -2,15 +2,17 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 -- vim.g.copilot_proxy_strict_ssl = false
--- vim.g.R_auto_start = 1
--- vim.g.R_app = "radian"
--- vim.g.R_cmd = "R"
--- vim.g.R_hl_term = 0
--- vim.g.R_bracketed_paste = 1
--- vim.g.R_args = {}
--- vim.g.R_path = "C:/Users/ARK010/AppData/Local/Programs/R/R-4.3.1/bin"
--- vim.g.R_path =
---     "C:\\rtools40\\mingw64\\bin;C:\\rtools40\\usr\\bin;C:\\Users\\ARK010\\AppData\\Local\\Programs\\R\\R-4.3.1\\bin\\x64"
+vim.g.R_auto_start = 2
+vim.g.R_objbr_place = "console,below"
+vim.g.R_app = "R"
+vim.g.R_cmd = "R"
+vim.g.R_assign = 0
+vim.g.R_hl_term = 1
+vim.g.R_bracketed_paste = 0
+vim.g.R_args = {}
+vim.g.R_path = "C:/Users/ARK010/AppData/Local/Programs/R/R-4.3.1/bin"
+vim.g.R_path =
+    "C:\\rtools40\\mingw64\\bin;C:\\rtools40\\usr\\bin;C:\\Users\\ARK010\\AppData\\Local\\Programs\\R\\R-4.3.1\\bin\\x64"
 -- vim.g.R_path =
 --     "C:\\rtools40\\mingw64\\bin;C:\\rtools40\\usr\\bin;C:\\Users\\ARK010\\AppData\\Local\\Programs\\R\\R-4.3.1\\bin\\x64"
 vim.opt.colorcolumn = "80"

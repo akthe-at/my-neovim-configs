@@ -4,6 +4,10 @@ return {
     --     lazy = false,
     -- },
     {
+        "jalvesaq/Nvim-R",
+        lazy = false,
+    },
+    {
         "m4xshen/hardtime.nvim",
         lazy = false,
         dependencies = {
