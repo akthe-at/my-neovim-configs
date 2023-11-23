@@ -19,6 +19,8 @@ vim.opt.colorcolumn = "80"
 vim.opt.smarttab = true
 vim.opt.undodir = os.getenv("USERPROFILE") .. "/nvim-data/undo"
 vim.opt.undofile = true
+vim.opt.hlsearch = false
+vim.opt.incsearch = true
 vim.opt.scrolloff = 8
 vim.opt.isfname:append("@-@")
 vim.opt.backup = false

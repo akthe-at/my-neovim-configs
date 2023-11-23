@@ -5,7 +5,6 @@ return {
     -- },
     {
         "jalvesaq/Nvim-R",
-        lazy = false,
     },
     {
         "m4xshen/hardtime.nvim",
@@ -111,13 +110,13 @@ return {
                             return { binary }
                         end,
                     },
-                    r = {
-                        command = function()
-                            local filename = vim.fn.executable("radian") == 1
-                            local binary = filename and "radian" or "R"
-                            return { binary }
-                        end,
-                    },
+                    -- r = {
+                    --     command = function()
+                    --         local filename = vim.fn.executable("radian") == 1
+                    --         local binary = filename and "radian" or "R"
+                    --         return { binary }
+                    --     end,
+                    -- },
                 },
             },
         },

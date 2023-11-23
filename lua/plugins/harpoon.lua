@@ -6,7 +6,7 @@ return {
         },
         keys = {
             {
-                "<leader>hm",
+                "<leader>ha",
                 "<cmd>lua require('harpoon.mark').add_file()<cr>",
                 desc = "mark file with harpoon",
             },
@@ -21,12 +21,12 @@ return {
                 desc = "go to previous harpoon mark",
             },
             {
-                "<leader>ha",
+                "<leader>hm",
                 "<cmd>lua require('harpoon.ui').toggle_quick_menu()<cr>",
                 desc = "show harpoon marks",
             },
             {
-                "<leader>hz",
+                "<leader>ht",
                 "<cmd>Telescope harpoon marks<cr>",
                 desc = "show harpoon marks in telescope",
             },

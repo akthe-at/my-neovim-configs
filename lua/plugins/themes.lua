@@ -2,7 +2,7 @@ return {
     {
         "catppuccin/nvim",
         lazy = true,
-        enabled = false,
+        enabled = true,
         name = "catppuccin",
         opts = {
             transparent_mode = false,
@@ -50,20 +50,6 @@ return {
         priority = 1000,
     },
     {
-        "AlexvZyl/nordic.nvim",
-        enabled = false,
-        lazy = true,
-        priority = 1000,
-        config = function()
-            require("nordic").load()
-        end,
-    },
-    {
-        "navarasu/onedark.nvim",
-        enabled = false,
-        priority = 1000, -- make sure to load this before all the other start plugins
-    },
-    {
         "Mofiqul/vscode.nvim",
         enabled = false,
         priority = 1000,
@@ -73,11 +59,5 @@ return {
         enabled = false,
         lazy = false,
         priority = 1000,
-        config = function()
-            require("bamboo").setup({
-                -- optional configuration here
-            })
-            require("bamboo").load()
-        end,
     },
 }
