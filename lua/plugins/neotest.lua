@@ -11,7 +11,7 @@ return {
                     },
                     args = { "--log-level", "DEBUG", "--quiet" },
                     runner = "pytest",
-                    python = "/venv/Scripts/python",
+                    python = "/.venv/Scripts/python",
                 },
             },
         },

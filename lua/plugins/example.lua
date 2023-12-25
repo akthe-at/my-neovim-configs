@@ -34,7 +34,13 @@ return {
     {
         "simrat39/symbols-outline.nvim",
         cmd = "SymbolsOutline",
-        keys = { { "<leader>cs", "<cmd>SymbolsOutline<cr>", desc = "Symbols Outline" } },
+        keys = {
+            {
+                "<leader>cs",
+                "<cmd>SymbolsOutline<cr>",
+                desc = "Symbols Outline",
+            },
+        },
         config = true,
     },
 
@@ -91,7 +97,7 @@ return {
             ---@type lspconfig.options
             servers = {
                 -- pyright will be automatically installed with mason and loaded with lspconfig
-                pyright = {},
+                -- pyright = {},
                 sqlfluff = {},
             },
         },

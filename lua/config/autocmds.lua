@@ -18,12 +18,6 @@ vim.api.nvim_create_autocmd("FileType", {
         -- different language, and lowercase them out of habit.
         vim.cmd.inoreabbrev("<buffer> true True")
         vim.cmd.inoreabbrev("<buffer> false False")
-
-        -- in the same way, we can fix habits regarding comments or None
-        vim.cmd.inoreabbrev("<buffer> -- #")
-        vim.cmd.inoreabbrev("<buffer> null None")
-        vim.cmd.inoreabbrev("<buffer> none None")
-        vim.cmd.inoreabbrev("<buffer> nil None")
     end,
 })
 
@@ -45,11 +39,5 @@ vim.api.nvim_create_autocmd("FileType", {
         vim.cmd.inoreabbrev("<buffer> false FALSE")
         vim.cmd.inoreabbrev("<buffer> True TRUE")
         vim.cmd.inoreabbrev("<buffer> False FALSE")
-
-        -- in the same way, we can fix habits regarding comments or None
-        vim.cmd.inoreabbrev("<buffer> -- #")
-        vim.cmd.inoreabbrev("<buffer> null NULL")
-        vim.cmd.inoreabbrev("<buffer> none NULL")
-        vim.cmd.inoreabbrev("<buffer> None Null")
     end,
 })

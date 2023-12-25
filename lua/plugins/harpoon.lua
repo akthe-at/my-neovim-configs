@@ -11,12 +11,12 @@ return {
                 desc = "mark file with harpoon",
             },
             {
-                "hn",
+                "<leader>o",
                 "<cmd>lua require('harpoon.ui').nav_next()<cr>",
                 desc = "go to next harpoon mark",
             },
             {
-                "hp",
+                "<leader>p",
                 "<cmd>lua require('harpoon.ui').nav_prev()<cr>",
                 desc = "go to previous harpoon mark",
             },

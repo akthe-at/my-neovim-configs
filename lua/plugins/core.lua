@@ -3,14 +3,16 @@ return {
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "tokyonight",
+            colorscheme = "solarized-osaka",
+            transparent = true,
         },
-        transparent_mode = false,
     },
     {
         "folke/tokyonight.nvim",
+        enabled = true,
+        lazy = false,
         opts = {
-            transparent = false,
+            transparent = true,
             styles = {
                 sidebars = "transparent",
                 floats = "transparent",
