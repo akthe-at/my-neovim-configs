@@ -38,13 +38,15 @@ return {
     },
     {
         "m4xshen/hardtime.nvim",
-        lazy = true,
+        lazy = false,
         enabled = true,
         dependencies = {
             "MunifTanjim/nui.nvim",
             "nvim-lua/plenary.nvim",
         },
         opts = {
+            max_count = 4,
+            disable_mouse = false,
             disabled_filetypes = {
                 "NvimTree",
                 "lazy",
