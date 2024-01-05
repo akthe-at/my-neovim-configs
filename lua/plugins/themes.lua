@@ -2,24 +2,27 @@ return {
     {
         "sainnhe/everforest",
         name = "everforest",
-        lazy = false,
-        enabled = true,
+        lazy = true,
+        enabled = false,
         priority = 1000,
         transparent = true,
     },
     {
         "fynnfluegge/monet.nvim",
         name = "monet",
-        lazy = false,
+        lazy = true,
         enabled = true,
+        opts = { transparent_background = true },
     },
     {
         "catppuccin/nvim",
-        lazy = false,
-        enabled = false,
+        lazy = true,
+        flavour = "mocha",
+        enabled = true,
+        priority = 1000,
         name = "catppuccin",
         opts = {
-            transparent_mode = false,
+            transparent_background = true,
             integrations = {
                 aerial = true,
                 alpha = true,
@@ -60,7 +63,7 @@ return {
     {
         "rebelot/kanagawa.nvim",
         enabled = true,
-        lazy = false,
+        lazy = true,
         priority = 1000,
         opts = {
             transparent = true,
@@ -70,13 +73,13 @@ return {
     {
         "ribru17/bamboo.nvim",
         enabled = false,
-        lazy = false,
+        lazy = true,
         priority = 1000,
     },
     {
         "rockyzhang24/arctic.nvim",
         enabled = true,
-        lazy = false,
+        lazy = true,
         priority = 1000,
         branch = "main",
         name = "arctic",
@@ -84,7 +87,7 @@ return {
     },
     {
         "craftzdog/solarized-osaka.nvim",
-        lazy = false,
+        lazy = true,
         priority = 1000,
         opts = {
             transparent = true,
