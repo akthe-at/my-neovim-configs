@@ -3,20 +3,24 @@ return {
     {
         "LazyVim/LazyVim",
         opts = {
-            colorscheme = "solarized-osaka",
-            transparent = true,
+            colorscheme = "rose-pine",
         },
     },
     {
         "folke/tokyonight.nvim",
         enabled = true,
-        lazy = false,
+        lazy = true,
         opts = {
             transparent = true,
+            style = "storm",
+            terminal_colors = true,
             styles = {
-                sidebars = "transparent",
-                floats = "transparent",
+                sidebars = "dark",
+                floats = "dark",
+                comments = { italic = true },
+                keywords = { italic = true },
             },
         },
     },
+    { "nvim-treesitter/nvim-treesitter-context", enabled = false },
 }
