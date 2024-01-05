@@ -19,7 +19,7 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
 -- This is going to get me cancelled
-vim.keymap.set("i", "<C-c>", "<Esc>")
+-- vim.keymap.set("i", "<C-c>", "<Esc>")
 vim.keymap.set("n", "Q", "<nop>")
 
 -- vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz")
@@ -33,4 +33,4 @@ vim.keymap.set(
     [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]]
 )
 --ndo tree
-vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
+vim.keymap.set("n", "<leader>uu", vim.cmd.UndotreeToggle)
