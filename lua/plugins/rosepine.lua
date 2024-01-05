@@ -13,6 +13,7 @@ return {
                     disable_background = true,
                     disable_nc_background = true,
                     disable_float_background = true,
+                    disable_italics = true,
 
                     groups = {
                         -- background = "pine", --"#133340", --"#255159",
@@ -24,7 +25,8 @@ return {
                         -- blend colours against the 'base' background
                         ColorColumn = { bg = "pine", blend = 40 },
                         CursorLine = { bg = "pine", blend = 21 },
-
+                        Normal = { bg = "none" },
+                        NormalFloat = { bg = "none" },
                         Search = { bg = "rose", inherit = false },
                         FloatBorder = { bg = "none" },
                         LineNr = { fg = "#f6c177" }, -- gold
