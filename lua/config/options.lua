@@ -29,10 +29,10 @@ vim.opt.swapfile = false
 -- vim.opt.signcolumn = "yes"
 vim.g.python3_host_prog = 0
 vim.g.everforest_background = "hard"
-vim.g.everforest_dim_inactive_windows = 1
+vim.g.everforest_dim_inactive_windows = 0
 vim.g.everforest_ui_contrast = "high"
 vim.g.everforest_enable_italic = 0
-vim.g.everforest_transparent_background = 1
+vim.g.everforest_transparent_background = 2
 vim.g.everforest_better_performance = 1
 vim.g.python_host_prog =
     "C:\\Users\\ARK010\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
